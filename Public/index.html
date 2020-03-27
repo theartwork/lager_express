@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="http://theartwork.eu/lg.css"/>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="default.js"></script>
+    <title>Lager</title>
+</head>
+<body>    
+    <table>
+        <thead>
+            <th colspan="2"><h3>Lager Bestand</h3></tr>   
+                <th colspan="2"><h5>Artikel suche</h5></tr>
+                </thead>  
+
+                <form action="/secret" method="get">
+
+                    <tr>
+                        <td>Artikel NR</td>
+                        <td ><input type="text" 
+                        name="txtArtikelNR" placeholder="Artikel Nummer: z.B. 1001"></td>
+                    </tr>
+                    <tr>
+                        <td>Artikel Name</td>
+                        <td><input type="text"  
+                        name="txtArtikelName" placeholder="Artikel Name: z.B. Nutella" ></td>
+                    </tr>
+                    <tr>
+                        <td>Typ ID </td>
+                        <td><input type="text"  
+                        name="txtTypID" placeholder="Typ ID: z.B. 2002" ></td>
+                    </tr>
+                    <tr>
+                        <td>Typ Name</td>
+                        <td><input type="text"
+                        name="txtTypName" placeholder="Typ Name: z.B. Lebensmittel"></td>
+                    </tr>
+                    <tr>                        
+                        <td><div><p name="divError" id="divTrim"></p></div></td></tr> 
+                        <tr>
+                            <td>
+                                <input type="submit" value="Artikel suchen" name="btnSearch">
+                            </td>
+                            <td>
+                                <input onclick="confirm_reset()" type="reset" value="Suchkriterien zur&uuml;cksetzen"></td>
+                            </form>
+                            </tr>
+                            
+                
+                <div class="footer">Copyright &copy; 2020,<a href="https://theartwork.space" target="_blank"> theartwork <i class="fab fa-instagram fa-1x"></i></a></div>
+
+                <script src="../Scripts/lastschrift.js"></script>
+                
+            </body>
+            </html>
+            
